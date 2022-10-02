@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width:50vw;
+    margin: auto;
+}
+#check-score{
+margin: auto;
+}
+.question-container{
+    margin: 5px 0px;
+}
+#show-result{
+    margin: auto;
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
