@@ -19,6 +19,12 @@ body{
     padding:5px 0px;
     margin-top:0%;   
 }
+
+.navigation ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap:12px;
+}
 .container label{
   font-size:bold;
   color:var(--dark-green);
