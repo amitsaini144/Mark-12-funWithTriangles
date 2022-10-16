@@ -19,17 +19,18 @@ body{
     margin-top:0%;   
 }
 .input-side{
-    margin: 5px 0px;
+    margin: 15px 0px;
 }
 #result{
-    margin: 5px 0px;
+    margin: 15px auto;
     padding-top: 10px;
-    font-size: larger;
+    font-size: 26px;
+    font-weight: bold;
 }
 #hypotenuse-btn{
     font-size: large;
     font-weight: bold;
-    margin: 5px 0px;
+    margin: 15px 0px;
     border-radius: 5px;
     height: 30px;
 }

@@ -9,11 +9,17 @@ function calculateSideProduct(height,base){
 
 function calculateAreaOfTriangle(){
     if(inputs[0].value&&inputs[1].value){
+        if(inputs[0].value > 0 &&inputs[1].value > 0){
     const sideProduct = calculateSideProduct(Number(inputs[0].value), Number(inputs[1].value));
     const areaOfTriangle = sideProduct/2;
     result.innerText = "Area of Triangle = "+areaOfTriangle;
-}else{
-    result.innerText = "Please fill both sections";
+}
+else{
+    result.innerText = "Both the sides must be positive !!";
+}
+    }
+else{
+    result.innerText = "Please fill both sections properly !!";
 }
 }
 

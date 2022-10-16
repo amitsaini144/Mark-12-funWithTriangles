@@ -29,17 +29,19 @@ body{
     padding:0px 20px;
 }
 .input-side{
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 #area-btn{
     font-size: large;
     font-weight: bold;
-    margin: 5px 0px;
+    margin: 15px 0px;
     border-radius: 5px;
     height: 30px;
 }
 #result{
-    margin: 5px 0px;
+    margin: 15px auto;
+    font-size: 26px;
+    font-weight: bold;
 }
 label{
     font-size: large;

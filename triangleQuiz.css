@@ -20,18 +20,17 @@ body{
 #check-score{
     font-size: large;
     font-weight: bold;
-    margin: 5px 0px;
+    margin: 15px 0px;
     border-radius: 5px;
     height: 30px;
 }
 .question-container{
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 #show-result{
-    margin: auto;
-    padding-top: 10px;
-    font-size: larger;
-    font-weight: bolder;
+    margin: 15px auto;
+    font-size: 26px;
+    font-weight: bold;
 }
 .links{
     text-decoration: none;
