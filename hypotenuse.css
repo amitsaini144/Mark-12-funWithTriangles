@@ -41,8 +41,11 @@ body{
 }
 .inline{
     display: inline;
-    padding:0px 20px;
+    padding:0px 10px;
 }
 label{
     font-size: large;
+}
+ul{
+    padding:15px
 }
